@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gamelist>
+	<game>
+		<path>./Arco.sh</path>
+		<name>Arco</name>
+        <desc>A Mesoamerican fantasy RPG that blends turn-based and real-time combat. Explore the world through three handcrafted stories forged in bloodshed, laced with magic, and united by revenge.</desc>
+		<image>./arco/cover.png</image>
+        <developer>Franek, Max Cahill, Bibiki, Fáyer</developer>
+        <genre>Action, Indie, Strategy</genre>
+	</game>
+</gamelist>

@@ -1,0 +1,32 @@
+{
+  "version": 3,
+  "name": "arco.zip",
+  "items": [
+    "Arco.sh",
+    "arco"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "Arco",
+    "porter": [
+      "Jeod"
+    ],
+    "desc": "A Mesoamerican fantasy RPG that blends turn-based and real-time combat. Explore the world through three handcrafted stories forged in bloodshed, laced with magic, and united by revenge.",
+    "desc_md": null,
+    "inst": "Purchase the game on Steam and copy `arco.exe` to `ports/arco`.",
+    "inst_md": null,
+    "genres": [
+      "other"
+    ],
+    "image": null,
+    "rtr": false,
+    "exp": false,
+    "runtime": null,
+    "reqs": [
+	  "ultra"
+	],
+    "arch": [
+      "aarch64"
+    ]
+  }
+}
