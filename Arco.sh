@@ -28,6 +28,10 @@ $ESUDO chmod +x -R $GAMEDIR/*
 export LD_LIBRARY_PATH="$GAMEDIR/libs.${DEVICE_ARCH}:$LD_LIBRARY_PATH"
 export SDL_GAMECONTROLLERCONFIG="$sdl_controllerconfig"
 
+# Config
+mkdir -p $"GAMEDIR/save"
+bind_directories "$XDG_DATA_HOME/love/arco/save" "$GAMEDIR/save"
+
 # Run game
 $GPTOKEYB "love" -c "arco.gptk" & 
 pm_platform_helper "$GAMEDIR/love"
